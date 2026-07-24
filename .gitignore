@@ -1,0 +1,21 @@
+# Cargo (Rust)
+/target/
+Cargo.lock
+
+# Environment & Certificates (mTLS keys, configs, secrets)
+.env
+*.pem
+*.key
+*.crt
+certs/
+secrets/
+
+# IDE & Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
